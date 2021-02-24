@@ -6,7 +6,7 @@ import { AppComponent } from '@src/app/app.component';
 
 import { AppUtils } from '@src/app/utils/app-utils/app-utils.tns';
 import { HttpService } from '@src/app/services/http.service';
-import { PokeApiService } from '@src/app/services/poke-api/poke-api.service.tns';
+import { PokeApiService } from '@src/app/services/poke-api/poke-api.service';
 import { CacheService } from '@src/app/services/cache/cache.service.tns';
 
 import { HideActionBarDirective } from '@src/app/utils/hide-action-bar/hide-action-bar.tns';

@@ -3,7 +3,7 @@ import { platformNativeScriptDynamic, AppOptions } from '@nativescript/angular';
 import { AppModule } from '@src/app/app.module';
 
 // Optional - attach to livesync hooks and perfrom navigation
-// import './livesync-navigation.tns';
+//import './livesync-navigation.tns';
 
 let options: AppOptions = {};
 

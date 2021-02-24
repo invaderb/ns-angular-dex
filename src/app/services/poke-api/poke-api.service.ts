@@ -28,7 +28,7 @@ export class PokeApiService {
 				try {
 					this.cache.put(`pokemon_${number}`, JSON.stringify(res));	
 				} catch (err) {
-					console.warn(err);
+					console.warn('http error', err);
 				}
 			});
 			return httpRequest;

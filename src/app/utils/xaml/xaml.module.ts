@@ -18,7 +18,7 @@ let directives = [XAMLRowDirective, XAMLColDirective, NSRouterLinkDirective];
 	],
 	imports: [
 		BrowserModule,
-		RouterModule.forRoot([]),
+		RouterModule.forRoot([], { relativeLinkResolution: 'legacy' }),
 		NgbCollapseModule,
 	],
 	exports: [
