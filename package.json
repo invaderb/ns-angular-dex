@@ -1,14 +1,5 @@
 {
 	"name": "nativescript-pokedex",
-	"nativescript": {
-		"id": "org.nativescript.nativescriptpokedex",
-		"tns-android": {
-			"version": "6.5.3"
-		},
-		"tns-ios": {
-			"version": "6.5.2"
-		}
-	},
 	"version": "0.1.0",
 	"scripts": {
 		"clean": "npx rimraf hooks node_modules package-lock.json platforms",
@@ -38,6 +29,7 @@
 		"@nativescript/angular": "~10.0.0",
 		"@nativescript/core": "rc",
 		"@nativescript/theme": "~2.2.1",
+		"@nativescript/webpack": "3.0.0",
 		"@ng-bootstrap/ng-bootstrap": "7.0.0",
 		"core-js": "^2.6.9",
 		"reflect-metadata": "~0.1.12",
@@ -49,8 +41,8 @@
 		"@angular-devkit/build-angular": "~0.1000.2",
 		"@angular/cli": "~10.0.0",
 		"@angular/compiler-cli": "~10.0.0",
+		"@nativescript/ios": "7.2.0",
 		"@nativescript/tslint-rules": "~0.0.5",
-		"@nativescript/webpack": "~2.0.0",
 		"@types/jasmine": "~3.5.0",
 		"@types/jasminewd2": "~2.0.3",
 		"@types/node": "^12.11.1",
@@ -64,9 +56,20 @@
 		"karma-jasmine-html-reporter": "^1.4.2",
 		"node-sass": "^4.7.1",
 		"protractor": "~5.4.3",
-		"tns-ios": "6.5.2",
+		"tns-android": "6.5.3",
+		"tns-ios": "6.5.4",
 		"ts-node": "~8.3.0",
 		"tslint": "~6.1.0",
 		"typescript": "~3.9.0"
+	},
+	"main": "main.tns.js",
+	"nativescript": {
+		"id": "org.nativescript.nativescriptpokedex",
+		"tns-android": {
+			"version": "6.5.3"
+		},
+		"tns-ios": {
+			"version": "6.5.4"
+		}
 	}
 }

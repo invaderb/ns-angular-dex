@@ -25,8 +25,6 @@ import { PokedexPage } from '@src/app/pages/pokedex/pokedex.page';
 import { PokemonPage } from '@src/app/pages/pokemon/pokemon.page';
 
 
-
-
 let pages = [HomePage, TodayPage, RandomPage, PokedexPage, PokemonPage];
 let directives = [HideActionBarDirective];
 let components = [PlatformViewComponent, ContainerComponent, PokemonInfoComponent, NavbarMenu]
