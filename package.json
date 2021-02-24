@@ -46,10 +46,11 @@
 		"zone.js": "~0.10.2"
 	},
 	"devDependencies": {
+		"@angular-devkit/build-angular": "~0.1000.2",
 		"@angular/cli": "~10.0.0",
 		"@angular/compiler-cli": "~10.0.0",
-		"@angular-devkit/build-angular": "~0.1000.2",
 		"@nativescript/tslint-rules": "~0.0.5",
+		"@nativescript/webpack": "~2.0.0",
 		"@types/jasmine": "~3.5.0",
 		"@types/jasminewd2": "~2.0.3",
 		"@types/node": "^12.11.1",
@@ -61,11 +62,11 @@
 		"karma-coverage-istanbul-reporter": "~2.1.0",
 		"karma-jasmine": "~3.0.1",
 		"karma-jasmine-html-reporter": "^1.4.2",
-		"@nativescript/webpack": "~2.0.0",
+		"node-sass": "^4.7.1",
 		"protractor": "~5.4.3",
+		"tns-ios": "6.5.2",
 		"ts-node": "~8.3.0",
 		"tslint": "~6.1.0",
-		"typescript": "~3.9.0",
-		"node-sass": "^4.7.1"
+		"typescript": "~3.9.0"
 	}
 }
